@@ -6,4 +6,7 @@ A virtual assistant, her/his name is Bep, who can:
 1. tell current time and date
 2. recommend a Taylor Swift song 
 3. support Revision program for exams/tests
+4. set up a to-do list
+5. play music
+
 + hmm...
