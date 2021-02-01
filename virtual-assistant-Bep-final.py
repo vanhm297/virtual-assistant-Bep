@@ -60,7 +60,7 @@ if "song" in you:
 
 else:
     bep_mouth_setting("Sorry I can't hear you. Say again")
-    you = bep_ear_setting
+    you = bep_ear_setting()
     
     
 
