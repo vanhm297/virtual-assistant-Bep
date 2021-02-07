@@ -40,6 +40,7 @@ def recommend_TS_song():
     bep_mouth_setting(song_Recommend)
 
 
+#greetings based on local time
 def hello():
     day_time = int(strftime('%H'))
     if day_time < 12:
