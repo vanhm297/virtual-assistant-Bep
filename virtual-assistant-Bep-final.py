@@ -1,7 +1,9 @@
 import speech_recognition
 import pyttsx3
 import random
+import time
 from datetime import date
+from time import strftime
 
 #bep brain
 bep_brain = ""
@@ -38,8 +40,21 @@ def recommend_TS_song():
     bep_mouth_setting(song_Recommend)
 
 
+def hello():
+    day_time = int(strftime('%H'))
+    if day_time < 12:
+        greeting = "Good morning"
+    elif 12 <= day_time <18:
+        greeting = "Good afternoon"
+    else:
+        greeting = "Good evening"
+    return greeting
+
+greeting = hello()
+
+
 #intro
-bep_brain = "Hi. I'm James. What is your name?"
+bep_brain = greeting + ". I'm James. What is your name?"
 bep_mouth_setting(bep_brain)
 you = bep_ear_setting()
 
