@@ -8,5 +8,6 @@ A virtual assistant, her/his name is Bep, who can:
 3. support Revision program for exams/tests
 4. set up a to-do list
 5. play the song of function 2 on Youtube
+6. translate Languages
 
 + hmm...
